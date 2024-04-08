@@ -1,0 +1,6 @@
+-MAKEUD_LBG="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\\RX231_lbg.ud" 
+-isa=rxv2 
+-lang=c99 
+-head=runtime,stdio,stdlib,string,new 
+-output="RX231.lib" 
+-nologo

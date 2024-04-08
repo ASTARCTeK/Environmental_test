@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QE>
+    <Segment id="Project">
+        <Setting id="SrcGeneratedPath" value="src/smc_gen"/>
+    </Segment>
+    <Segment id="Pin">
+        <Setting id="P36" value="EXTAL"/>
+        <Setting id="P37" value="XTAL"/>
+        <Setting id="MD" value="FINED"/>
+    </Segment>
+    <Segment id="Device">
+        <Setting id="Series" value="RX200"/>
+        <Setting id="Group" value="RX231"/>
+        <Setting id="Board" value="Custom User Board"/>
+        <Setting id="PartNo" value="R5F52318AxFP"/>
+        <Setting id="PinCount" value="100"/>
+    </Segment>
+    <Segment id="Component">
+        <Setting id="r_bsp" value="FIT"/>
+        <Setting id="FreeRTOS_Object" value=""/>
+        <Setting id="FreeRTOS_Kernel" value=""/>
+        <Segment component="r_bsp7.41" id="r_bsp" source="com.renesas.smc.tools.swcomponent.fit.source">
+            <Setting id="BSP_CFG_ID_CODE_LONG_4" value="0xFFFFFFFF"/>
+            <Setting id="BSP_CFG_SWINT_UNIT1_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_ID_CODE_LONG_2" value="0xFFFFFFFF"/>
+            <Setting id="BSP_CFG_ID_CODE_LONG_3" value="0xFFFFFFFF"/>
+            <Setting id="BSP_CFG_USER_CHARPUT_FUNCTION" value="my_sw_charput_function"/>
+            <Setting id="BSP_CFG_SCI_UART_TERMINAL_BITRATE" value="115200"/>
+            <Setting id="BSP_CFG_SWINT_TASK_BUFFER_NUMBER" value="8"/>
+            <Setting id="BSP_CFG_USER_LOCKING_HW_UNLOCK_FUNCTION" value="my_hw_unlocking_function"/>
+            <Setting id="BSP_CFG_ID_CODE_LONG_1" value="0xFFFFFFFF"/>
+            <Setting id="BSP_CFG_USER_STACK_ENABLE" value="1"/>
+            <Setting id="BSP_CFG_SCI_UART_TERMINAL_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_HOCO_TRIMMING_REG_VALUE" value="0"/>
+            <Setting id="BSP_CFG_USER_LOCKING_SW_UNLOCK_FUNCTION" value="my_sw_unlocking_function"/>
+            <Setting id="BSP_CFG_USER_WARM_START_POST_C_FUNCTION" value="my_sw_warmstart_postc_function"/>
+            <Setting id="BSP_CFG_USER_CHARPUT_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_SWINT_IPR_INITIAL_VALUE" value="0x1"/>
+            <Setting id="BSP_CFG_RUN_IN_USER_MODE" value="0"/>
+            <Setting id="BSP_CFG_USER_LOCKING_HW_LOCK_FUNCTION" value="my_hw_locking_function"/>
+            <Setting id="BSP_CFG_USER_WARM_START_PRE_C_FUNCTION" value="my_sw_warmstart_prec_function"/>
+            <Setting id="BSP_CFG_PARAM_CHECKING_ENABLE" value="1"/>
+            <Setting id="BSP_CFG_SCI_UART_TERMINAL_INTERRUPT_PRIORITY" value="15"/>
+            <Setting id="BSP_CFG_USER_LOCKING_TYPE" value="bsp_lock_t"/>
+            <Setting id="BSP_CFG_HEAP_BYTES" value="0x400"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_PRE_INITC_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_HOCO_TRIMMING_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_FIT_IPL_MAX" value="0xF"/>
+            <Setting id="BSP_CFG_USTACK_BYTES" value="0x1000"/>
+            <Setting id="BSP_CFG_USER_LOCKING_SW_LOCK_FUNCTION" value="my_sw_locking_function"/>
+            <Setting id="BSP_CFG_ISTACK_BYTES" value="0x400"/>
+            <Setting id="BSP_CFG_SCI_UART_TERMINAL_CHANNEL" value="5"/>
+            <Setting id="BSP_CFG_USER_LOCKING_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_USER_CHARGET_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_IO_LIB_ENABLE" value="1"/>
+            <Setting id="BSP_CFG_USER_CHARGET_FUNCTION" value="my_sw_charget_function"/>
+            <Setting id="BSP_CFG_VBATT_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_ROM_CODE_PROTECT_VALUE" value="0xFFFFFFFF"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_POST_INITC_ENABLED" value="0"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.rtosconfigurator.freertos.object" id="FreeRTOS_Object" source="com.renesas.smc.tools.swcomponent.rtosconfigurator.source"/>
+        <Segment component="com.renesas.smc.tools.swcomponent.rtosconfigurator.freertos.kernel" id="FreeRTOS_Kernel" source="com.renesas.smc.tools.swcomponent.rtosconfigurator.source"/>
+    </Segment>
+    <Segment id="Clock">
+        <Setting id="UsbCLK" value="48000.0"/>
+        <Setting id="PCLKD" value="27000.0"/>
+        <Setting id="CacMCLK" value="8000.0"/>
+        <Setting id="PLLCLK" value="54000.0"/>
+        <Setting id="PCLKB" value="27000.0"/>
+        <Setting id="VCC" value="3.3"/>
+        <Setting id="BusCLK" value="27000.0"/>
+        <Setting id="PCLKA" value="54000.0"/>
+        <Setting id="ICLK" value="54000.0"/>
+        <Setting id="FCLK" value="27000.0"/>
+        <Setting id="SysCLKSrc" value="4.0"/>
+        <Setting id="ExtCLK" value="8000.0"/>
+    </Segment>
+</QE>

@@ -1,0 +1,10 @@
+-isa=rxv2
+-MAKEUD="D:\e2studio_RX231\Environmental test\RX231\HardwareDebug\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+-include="D:\e2studio_RX231\Environmental test\RX231\src\smc_gen\r_config"
+-include="D:\e2studio_RX231\Environmental test\RX231\src\smc_gen\general"
+-include="D:\e2studio_RX231\Environmental test\RX231\src\smc_gen\r_pincfg"
+-include="D:\e2studio_RX231\Environmental test\RX231\src\smc_gen"
+-include="D:\e2studio_RX231\Environmental test\RX231\src\smc_gen\r_bsp"
+-utf8
+-debug
+-nologo

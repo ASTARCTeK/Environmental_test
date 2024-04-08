@@ -1,0 +1,5 @@
+com.renesas.cdt.managedbuild.renesas.ccrx.common.option.checkRtos=unusedRtos
+com.renesas.cdt.managedbuild.renesas.ccrx.rtosConfig.option.rtosId=com.renesas.smc.rtos.e2studio.pgRtos
+com.renesas.cdt.managedbuild.renesas.ccrx.rtosConfig.option.rtosName=FreeRTOS (kernel only)
+com.renesas.cdt.managedbuild.renesas.ccrx.rtosConfig.option.rtosVersion=10.4.3-rx-1.0.9
+eclipse.preferences.version=1

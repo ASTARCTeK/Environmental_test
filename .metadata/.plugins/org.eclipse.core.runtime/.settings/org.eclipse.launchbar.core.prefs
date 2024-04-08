@@ -1,0 +1,7 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,\u672C\u7AEF/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,\u672C\u7AEF/name=\u672C\u7AEF
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,\u672C\u7AEF/os=win32
+com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:RX231\ HardwareDebug/activeLaunchMode=debug
+com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:RX231\ HardwareDebug/activeLaunchTarget=null\:---
+configDescList=com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:RX231 HardwareDebug
+eclipse.preferences.version=1

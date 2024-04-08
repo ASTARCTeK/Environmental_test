@@ -1,0 +1,1814 @@
+Extracting support files...
+16:16:11 **** Incremental Build of configuration HardwareDebug for project RX231 ****
+make -j20 all 
+'Scanning and building file: ../src/FreeRTOS/Source/portable/Renesas/RX600v2/port.c'
+'Scanning and building file: ../src/frtos_startup/freertos_object_init.c'
+'Invoking: Scanner and Compiler'
+'Invoking: Scanner and Compiler'
+src\FreeRTOS\Source\portable\Renesas\RX600v2\cDepSubCommand.tmp=
+src\frtos_startup\cDepSubCommand.tmp=
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\FreeRTOS\Source\portable\Renesas\RX600v2\cDepSubCommand.tmp" -output=dep="src/FreeRTOS/Source/portable/Renesas/RX600v2/port.d" -MT="src/FreeRTOS/Source/portable/Renesas/RX600v2/port.obj" -MT="src/FreeRTOS/Source/portable/Renesas/RX600v2/port.d" "../src/FreeRTOS/Source/portable/Renesas/RX600v2/port.c"
+'Scanning and building file: ../src/frtos_startup/freertos_start.c'
+ccrx -subcommand="src\frtos_startup\cDepSubCommand.tmp" -output=dep="src/frtos_startup/freertos_object_init.d" -MT="src/frtos_startup/freertos_object_init.obj" -MT="src/frtos_startup/freertos_object_init.d" "../src/frtos_startup/freertos_object_init.c"
+'Invoking: Scanner and Compiler'
+'Scanning and building file: ../src/smc_gen/r_pincfg/Pin.c'
+src\frtos_startup\cDepSubCommand.tmp=
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+'Invoking: Scanner and Compiler'
+'Scanning and building file: ../src/FreeRTOS/Source/portable/MemMang/heap_4.c'
+ccrx -subcommand="src\frtos_startup\cDepSubCommand.tmp" -output=dep="src/frtos_startup/freertos_start.d" -MT="src/frtos_startup/freertos_start.obj" -MT="src/frtos_startup/freertos_start.d" "../src/frtos_startup/freertos_start.c"
+src\smc_gen\r_pincfg\cDepSubCommand.tmp=
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+'Invoking: Scanner and Compiler'
+'Scanning and building file: ../src/RX231.c'
+ccrx -subcommand="src\smc_gen\r_pincfg\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_pincfg/Pin.d" -MT="src/smc_gen/r_pincfg/Pin.obj" -MT="src/smc_gen/r_pincfg/Pin.d" "../src/smc_gen/r_pincfg/Pin.c"
+src\FreeRTOS\Source\portable\MemMang\cDepSubCommand.tmp=
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+'Invoking: Scanner and Compiler'
+'Scanning and building file: ../src/smc_gen/r_bsp/board/generic_rx231/hwsetup.c'
+ccrx -subcommand="src\FreeRTOS\Source\portable\MemMang\cDepSubCommand.tmp" -output=dep="src/FreeRTOS/Source/portable/MemMang/heap_4.d" -MT="src/FreeRTOS/Source/portable/MemMang/heap_4.obj" -MT="src/FreeRTOS/Source/portable/MemMang/heap_4.d" "../src/FreeRTOS/Source/portable/MemMang/heap_4.c"
+src\cDepSubCommand.tmp=
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+'Invoking: Scanner and Compiler'
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/rx231/mcu_clocks.c'
+ccrx -subcommand="src\cDepSubCommand.tmp" -output=dep="src/RX231.d" -MT="src/RX231.obj" -MT="src/RX231.d" "../src/RX231.c"
+src\smc_gen\r_bsp\board\generic_rx231\cDepSubCommand.tmp=
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+'Invoking: Scanner and Compiler'
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/rx231/mcu_init.c'
+src\frtos_startup\cSubCommand.tmp=
+src\FreeRTOS\Source\portable\MemMang\cSubCommand.tmp=
+ccrx -subcommand="src\smc_gen\r_bsp\board\generic_rx231\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/board/generic_rx231/hwsetup.d" -MT="src/smc_gen/r_bsp/board/generic_rx231/hwsetup.obj" -MT="src/smc_gen/r_bsp/board/generic_rx231/hwsetup.d" "../src/smc_gen/r_bsp/board/generic_rx231/hwsetup.c"
+src\smc_gen\r_bsp\mcu\rx231\cDepSubCommand.tmp=
+'Invoking: Scanner and Compiler'
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\frtos_startup"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/frtos_startup"
+ -debug
+ -outcode=utf8
+ -nologo
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\FreeRTOS\Source\portable\MemMang"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/FreeRTOS/Source/portable/MemMang"
+ -debug
+ -outcode=utf8
+ -nologo
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+src\FreeRTOS\Source\portable\Renesas\RX600v2\cSubCommand.tmp=
+src\frtos_startup\cSubCommand.tmp=
+src\smc_gen\r_pincfg\cSubCommand.tmp=
+src\cSubCommand.tmp=
+src\smc_gen\r_bsp\board\generic_rx231\cSubCommand.tmp=
+ccrx -subcommand="src\frtos_startup\cSubCommand.tmp" "../src/frtos_startup/freertos_object_init.c"
+ccrx -subcommand="src\FreeRTOS\Source\portable\MemMang\cSubCommand.tmp" "../src/FreeRTOS/Source/portable/MemMang/heap_4.c"
+src\smc_gen\r_bsp\mcu\rx231\cDepSubCommand.tmp=
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\rx231\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/rx231/mcu_clocks.d" -MT="src/smc_gen/r_bsp/mcu/rx231/mcu_clocks.obj" -MT="src/smc_gen/r_bsp/mcu/rx231/mcu_clocks.d" "../src/smc_gen/r_bsp/mcu/rx231/mcu_clocks.c"
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/FreeRTOS/Source/portable/Renesas/RX600v2"
+ -debug
+ -outcode=utf8
+ -nologo
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\frtos_startup"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/frtos_startup"
+ -debug
+ -outcode=utf8
+ -nologo
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_pincfg"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_pincfg"
+ -debug
+ -outcode=utf8
+ -nologo
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src"
+ -debug
+ -outcode=utf8
+ -nologo
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\board\generic_rx231"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/board/generic_rx231"
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\FreeRTOS\Source\portable\Renesas\RX600v2\cSubCommand.tmp" "../src/FreeRTOS/Source/portable/Renesas/RX600v2/port.c"
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\frtos_startup\cSubCommand.tmp" "../src/frtos_startup/freertos_start.c"
+ccrx -subcommand="src\smc_gen\r_pincfg\cSubCommand.tmp" "../src/smc_gen/r_pincfg/Pin.c"
+ccrx -subcommand="src\cSubCommand.tmp" "../src/RX231.c"
+ccrx -subcommand="src\smc_gen\r_bsp\board\generic_rx231\cSubCommand.tmp" "../src/smc_gen/r_bsp/board/generic_rx231/hwsetup.c"
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\rx231\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/rx231/mcu_init.d" -MT="src/smc_gen/r_bsp/mcu/rx231/mcu_init.obj" -MT="src/smc_gen/r_bsp/mcu/rx231/mcu_init.d" "../src/smc_gen/r_bsp/mcu/rx231/mcu_init.c"
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/rx231/mcu_interrupts.c'
+../src/RX231.c(22):W0520223:Function "Object_init_manual" declared implicitly
+src\smc_gen\r_bsp\mcu\rx231\cSubCommand.tmp=
+'Invoking: Scanner and Compiler'
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\rx231"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/rx231"
+ -debug
+ -outcode=utf8
+ -nologo
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/rx231/r_bsp_vbatt.c'
+src\smc_gen\r_bsp\mcu\rx231\cDepSubCommand.tmp=
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\rx231\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/rx231/mcu_init.c"
+'Invoking: Scanner and Compiler'
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\rx231\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/rx231/mcu_interrupts.d" -MT="src/smc_gen/r_bsp/mcu/rx231/mcu_interrupts.obj" -MT="src/smc_gen/r_bsp/mcu/rx231/mcu_interrupts.d" "../src/smc_gen/r_bsp/mcu/rx231/mcu_interrupts.c"
+src\smc_gen\r_bsp\mcu\rx231\cDepSubCommand.tmp=
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/rx231/vecttbl.c'
+'Scanning and building file: ../src/FreeRTOS/Source/croutine.c'
+src\smc_gen\r_bsp\mcu\rx231\cSubCommand.tmp=
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\rx231\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/rx231/r_bsp_vbatt.d" -MT="src/smc_gen/r_bsp/mcu/rx231/r_bsp_vbatt.obj" -MT="src/smc_gen/r_bsp/mcu/rx231/r_bsp_vbatt.d" "../src/smc_gen/r_bsp/mcu/rx231/r_bsp_vbatt.c"
+'Invoking: Scanner and Compiler'
+'Invoking: Scanner and Compiler'
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\rx231"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/rx231"
+ -debug
+ -outcode=utf8
+ -nologo
+src\smc_gen\r_bsp\mcu\rx231\cDepSubCommand.tmp=
+src\FreeRTOS\Source\cDepSubCommand.tmp=
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\rx231\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/rx231/mcu_interrupts.c"
+src\smc_gen\r_bsp\mcu\rx231\cSubCommand.tmp=
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\rx231\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/rx231/vecttbl.d" -MT="src/smc_gen/r_bsp/mcu/rx231/vecttbl.obj" -MT="src/smc_gen/r_bsp/mcu/rx231/vecttbl.d" "../src/smc_gen/r_bsp/mcu/rx231/vecttbl.c"
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\rx231"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/rx231"
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\FreeRTOS\Source\cDepSubCommand.tmp" -output=dep="src/FreeRTOS/Source/croutine.d" -MT="src/FreeRTOS/Source/croutine.obj" -MT="src/FreeRTOS/Source/croutine.d" "../src/FreeRTOS/Source/croutine.c"
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\rx231\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/rx231/r_bsp_vbatt.c"
+'Scanning and building file: ../src/FreeRTOS/Source/event_groups.c'
+'Scanning and building file: ../src/FreeRTOS/Source/list.c'
+src\smc_gen\r_bsp\mcu\rx231\cSubCommand.tmp=
+src\FreeRTOS\Source\cSubCommand.tmp=
+'Invoking: Scanner and Compiler'
+'Invoking: Scanner and Compiler'
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\rx231"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/rx231"
+ -debug
+ -outcode=utf8
+ -nologo
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\FreeRTOS\Source"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/FreeRTOS/Source"
+ -debug
+ -outcode=utf8
+ -nologo
+src\FreeRTOS\Source\cDepSubCommand.tmp=
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\rx231\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/rx231/vecttbl.c"
+src\FreeRTOS\Source\cDepSubCommand.tmp=
+ccrx -subcommand="src\FreeRTOS\Source\cSubCommand.tmp" "../src/FreeRTOS/Source/croutine.c"
+src\smc_gen\r_bsp\mcu\rx231\cSubCommand.tmp=
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\FreeRTOS\Source\cDepSubCommand.tmp" -output=dep="src/FreeRTOS/Source/event_groups.d" -MT="src/FreeRTOS/Source/event_groups.obj" -MT="src/FreeRTOS/Source/event_groups.d" "../src/FreeRTOS/Source/event_groups.c"
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\rx231"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/rx231"
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\FreeRTOS\Source\cDepSubCommand.tmp" -output=dep="src/FreeRTOS/Source/list.d" -MT="src/FreeRTOS/Source/list.obj" -MT="src/FreeRTOS/Source/list.d" "../src/FreeRTOS/Source/list.c"
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\rx231\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/rx231/mcu_clocks.c"
+'Scanning and building file: ../src/FreeRTOS/Source/queue.c'
+'Scanning and building file: ../src/FreeRTOS/Source/stream_buffer.c'
+'Scanning and building file: ../src/FreeRTOS/Source/tasks.c'
+src\FreeRTOS\Source\cSubCommand.tmp=
+src\FreeRTOS\Source\cSubCommand.tmp=
+'Invoking: Scanner and Compiler'
+'Invoking: Scanner and Compiler'
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\FreeRTOS\Source"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/FreeRTOS/Source"
+ -debug
+ -outcode=utf8
+ -nologo
+'Invoking: Scanner and Compiler'
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\FreeRTOS\Source"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/FreeRTOS/Source"
+ -debug
+ -outcode=utf8
+ -nologo
+src\FreeRTOS\Source\cDepSubCommand.tmp=
+ccrx -subcommand="src\FreeRTOS\Source\cSubCommand.tmp" "../src/FreeRTOS/Source/event_groups.c"
+src\FreeRTOS\Source\cDepSubCommand.tmp=
+ccrx -subcommand="src\FreeRTOS\Source\cSubCommand.tmp" "../src/FreeRTOS/Source/list.c"
+src\FreeRTOS\Source\cDepSubCommand.tmp=
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\FreeRTOS\Source\cDepSubCommand.tmp" -output=dep="src/FreeRTOS/Source/queue.d" -MT="src/FreeRTOS/Source/queue.obj" -MT="src/FreeRTOS/Source/queue.d" "../src/FreeRTOS/Source/queue.c"
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\FreeRTOS\Source\cDepSubCommand.tmp" -output=dep="src/FreeRTOS/Source/stream_buffer.d" -MT="src/FreeRTOS/Source/stream_buffer.obj" -MT="src/FreeRTOS/Source/stream_buffer.d" "../src/FreeRTOS/Source/stream_buffer.c"
+'Finished Scanning and building: ../src/FreeRTOS/Source/portable/MemMang/heap_4.c'
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/rx231/mcu_init.c'
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/rx231/mcu_interrupts.c'
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/rx231/r_bsp_vbatt.c'
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/rx231/vecttbl.c'
+'Finished Scanning and building: ../src/FreeRTOS/Source/croutine.c'
+ccrx -subcommand="src\FreeRTOS\Source\cDepSubCommand.tmp" -output=dep="src/FreeRTOS/Source/tasks.d" -MT="src/FreeRTOS/Source/tasks.obj" -MT="src/FreeRTOS/Source/tasks.d" "../src/FreeRTOS/Source/tasks.c"
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/rx231/mcu_clocks.c'
+'Finished Scanning and building: ../src/FreeRTOS/Source/event_groups.c'
+'Finished Scanning and building: ../src/FreeRTOS/Source/list.c'
+src\FreeRTOS\Source\cSubCommand.tmp=
+src\FreeRTOS\Source\cSubCommand.tmp=
+''
+''
+''
+''
+''
+''
+''
+'Finished Scanning and building: ../src/frtos_startup/freertos_start.c'
+src\FreeRTOS\Source\cSubCommand.tmp=
+''
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\FreeRTOS\Source"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/FreeRTOS/Source"
+ -debug
+ -outcode=utf8
+ -nologo
+''
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\FreeRTOS\Source"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/FreeRTOS/Source"
+ -debug
+ -outcode=utf8
+ -nologo
+''
+ccrx -subcommand="src\FreeRTOS\Source\cSubCommand.tmp" "../src/FreeRTOS/Source/queue.c"
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\FreeRTOS\Source"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/FreeRTOS/Source"
+ -debug
+ -outcode=utf8
+ -nologo
+'Finished Scanning and building: ../src/smc_gen/r_pincfg/Pin.c'
+ccrx -subcommand="src\FreeRTOS\Source\cSubCommand.tmp" "../src/FreeRTOS/Source/stream_buffer.c"
+ccrx -subcommand="src\FreeRTOS\Source\cSubCommand.tmp" "../src/FreeRTOS/Source/tasks.c"
+''
+'Scanning and building file: ../src/FreeRTOS/Source/timers.c'
+'Scanning and building file: ../src/smc_gen/general/r_cg_hardware_setup.c'
+'Scanning and building file: ../src/smc_gen/general/r_smc_cgc.c'
+'Invoking: Scanner and Compiler'
+'Invoking: Scanner and Compiler'
+'Invoking: Scanner and Compiler'
+src\FreeRTOS\Source\cDepSubCommand.tmp=
+src\smc_gen\general\cDepSubCommand.tmp=
+src\smc_gen\general\cDepSubCommand.tmp=
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+'Finished Scanning and building: ../src/smc_gen/r_bsp/board/generic_rx231/hwsetup.c'
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\FreeRTOS\Source\cDepSubCommand.tmp" -output=dep="src/FreeRTOS/Source/timers.d" -MT="src/FreeRTOS/Source/timers.obj" -MT="src/FreeRTOS/Source/timers.d" "../src/FreeRTOS/Source/timers.c"
+ccrx -subcommand="src\smc_gen\general\cDepSubCommand.tmp" -output=dep="src/smc_gen/general/r_cg_hardware_setup.d" -MT="src/smc_gen/general/r_cg_hardware_setup.obj" -MT="src/smc_gen/general/r_cg_hardware_setup.d" "../src/smc_gen/general/r_cg_hardware_setup.c"
+ccrx -subcommand="src\smc_gen\general\cDepSubCommand.tmp" -output=dep="src/smc_gen/general/r_smc_cgc.d" -MT="src/smc_gen/general/r_smc_cgc.obj" -MT="src/smc_gen/general/r_smc_cgc.d" "../src/smc_gen/general/r_smc_cgc.c"
+''
+'Scanning and building file: ../src/smc_gen/general/r_smc_cgc_user.c'
+'Scanning and building file: ../src/smc_gen/general/r_smc_interrupt.c'
+'Finished Scanning and building: ../src/FreeRTOS/Source/stream_buffer.c'
+src\FreeRTOS\Source\cSubCommand.tmp=
+src\smc_gen\general\cSubCommand.tmp=
+src\smc_gen\general\cSubCommand.tmp=
+'Invoking: Scanner and Compiler'
+'Finished Scanning and building: ../src/FreeRTOS/Source/queue.c'
+'Invoking: Scanner and Compiler'
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\FreeRTOS\Source"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/FreeRTOS/Source"
+ -debug
+ -outcode=utf8
+ -nologo
+''
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\general"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/general"
+ -debug
+ -outcode=utf8
+ -nologo
+'Finished Scanning and building: ../src/frtos_startup/freertos_object_init.c'
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\general"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/general"
+ -debug
+ -outcode=utf8
+ -nologo
+'Finished Scanning and building: ../src/FreeRTOS/Source/tasks.c'
+src\smc_gen\general\cDepSubCommand.tmp=
+''
+ccrx -subcommand="src\FreeRTOS\Source\cSubCommand.tmp" "../src/FreeRTOS/Source/timers.c"
+ccrx -subcommand="src\smc_gen\general\cSubCommand.tmp" "../src/smc_gen/general/r_cg_hardware_setup.c"
+src\smc_gen\general\cDepSubCommand.tmp=
+''
+ccrx -subcommand="src\smc_gen\general\cSubCommand.tmp" "../src/smc_gen/general/r_smc_cgc.c"
+''
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\smc_gen\general\cDepSubCommand.tmp" -output=dep="src/smc_gen/general/r_smc_cgc_user.d" -MT="src/smc_gen/general/r_smc_cgc_user.obj" -MT="src/smc_gen/general/r_smc_cgc_user.d" "../src/smc_gen/general/r_smc_cgc_user.c"
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\smc_gen\general\cDepSubCommand.tmp" -output=dep="src/smc_gen/general/r_smc_interrupt.d" -MT="src/smc_gen/general/r_smc_interrupt.obj" -MT="src/smc_gen/general/r_smc_interrupt.d" "../src/smc_gen/general/r_smc_interrupt.c"
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/all/dbsct.c'
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/all/lowlvl.c'
+'Invoking: Scanner and Compiler'
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/all/lowsrc.c'
+src\smc_gen\general\cSubCommand.tmp=
+src\smc_gen\general\cSubCommand.tmp=
+'Invoking: Scanner and Compiler'
+src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp=
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\general"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/general"
+ -debug
+ -outcode=utf8
+ -nologo
+'Invoking: Scanner and Compiler'
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\general"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/general"
+ -debug
+ -outcode=utf8
+ -nologo
+src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp=
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp=
+'Finished Scanning and building: ../src/FreeRTOS/Source/timers.c'
+'Finished Scanning and building: ../src/smc_gen/general/r_cg_hardware_setup.c'
+ccrx -subcommand="src\smc_gen\general\cSubCommand.tmp" "../src/smc_gen/general/r_smc_cgc_user.c"
+ccrx -subcommand="src\smc_gen\general\cSubCommand.tmp" "../src/smc_gen/general/r_smc_interrupt.c"
+'Finished Scanning and building: ../src/smc_gen/general/r_smc_cgc.c'
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/all/dbsct.d" -MT="src/smc_gen/r_bsp/mcu/all/dbsct.obj" -MT="src/smc_gen/r_bsp/mcu/all/dbsct.d" "../src/smc_gen/r_bsp/mcu/all/dbsct.c"
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+''
+''
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/all/lowlvl.d" -MT="src/smc_gen/r_bsp/mcu/all/lowlvl.obj" -MT="src/smc_gen/r_bsp/mcu/all/lowlvl.d" "../src/smc_gen/r_bsp/mcu/all/lowlvl.c"
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/all/lowsrc.d" -MT="src/smc_gen/r_bsp/mcu/all/lowsrc.obj" -MT="src/smc_gen/r_bsp/mcu/all/lowsrc.d" "../src/smc_gen/r_bsp/mcu/all/lowsrc.c"
+''
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/all/mcu_locks.c'
+src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp=
+'Invoking: Scanner and Compiler'
+src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp=
+src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp=
+'Finished Scanning and building: ../src/FreeRTOS/Source/portable/Renesas/RX600v2/port.c'
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\all"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/all"
+ -debug
+ -outcode=utf8
+ -nologo
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\all"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/all"
+ -debug
+ -outcode=utf8
+ -nologo
+src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp=
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\all"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/all"
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/all/dbsct.c"
+''
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/all/lowlvl.c"
+'Finished Scanning and building: ../src/smc_gen/general/r_smc_interrupt.c'
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/all/lowsrc.c"
+''
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/all/mcu_locks.d" -MT="src/smc_gen/r_bsp/mcu/all/mcu_locks.obj" -MT="src/smc_gen/r_bsp/mcu/all/mcu_locks.d" "../src/smc_gen/r_bsp/mcu/all/mcu_locks.c"
+'Finished Scanning and building: ../src/smc_gen/general/r_smc_cgc_user.c'
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/all/r_bsp_common.c'
+''
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/all/r_bsp_cpu.c'
+'Invoking: Scanner and Compiler'
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/all/r_bsp_interrupts.c'
+src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp=
+'Invoking: Scanner and Compiler'
+src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp=
+'Invoking: Scanner and Compiler'
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/all/dbsct.c'
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/all/lowlvl.c'
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\all"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/all"
+ -debug
+ -outcode=utf8
+ -nologo
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/all/lowsrc.c'
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp=
+src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp=
+''
+''
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/all/mcu_locks.c"
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/all/r_bsp_common.d" -MT="src/smc_gen/r_bsp/mcu/all/r_bsp_common.obj" -MT="src/smc_gen/r_bsp/mcu/all/r_bsp_common.d" "../src/smc_gen/r_bsp/mcu/all/r_bsp_common.c"
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+''
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/all/r_bsp_cpu.d" -MT="src/smc_gen/r_bsp/mcu/all/r_bsp_cpu.obj" -MT="src/smc_gen/r_bsp/mcu/all/r_bsp_cpu.d" "../src/smc_gen/r_bsp/mcu/all/r_bsp_cpu.c"
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/all/r_bsp_interrupts.d" -MT="src/smc_gen/r_bsp/mcu/all/r_bsp_interrupts.obj" -MT="src/smc_gen/r_bsp/mcu/all/r_bsp_interrupts.d" "../src/smc_gen/r_bsp/mcu/all/r_bsp_interrupts.c"
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/all/r_bsp_locking.c'
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/all/r_bsp_mcu_startup.c'
+'Finished Scanning and building: ../src/RX231.c'
+src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp=
+src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp=
+src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp=
+'Invoking: Scanner and Compiler'
+'Invoking: Scanner and Compiler'
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\all"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/all"
+ -debug
+ -outcode=utf8
+ -nologo
+''
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\all"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/all"
+ -debug
+ -outcode=utf8
+ -nologo
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\all"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/all"
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/all/r_bsp_common.c"
+src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp=
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/all/r_bsp_interrupts.c"
+src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp=
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/all/r_bsp_cpu.c"
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/all/mcu_locks.c'
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/all/r_bsp_locking.d" -MT="src/smc_gen/r_bsp/mcu/all/r_bsp_locking.obj" -MT="src/smc_gen/r_bsp/mcu/all/r_bsp_locking.d" "../src/smc_gen/r_bsp/mcu/all/r_bsp_locking.c"
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/all/r_bsp_mcu_startup.d" -MT="src/smc_gen/r_bsp/mcu/all/r_bsp_mcu_startup.obj" -MT="src/smc_gen/r_bsp/mcu/all/r_bsp_mcu_startup.d" "../src/smc_gen/r_bsp/mcu/all/r_bsp_mcu_startup.c"
+''
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/all/r_bsp_software_interrupt.c'
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/all/r_rx_intrinsic_functions.c'
+'Invoking: Scanner and Compiler'
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/all/resetprg.c'
+src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp=
+src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp=
+'Invoking: Scanner and Compiler'
+src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp=
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\all"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/all"
+ -debug
+ -outcode=utf8
+ -nologo
+'Invoking: Scanner and Compiler'
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\all"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/all"
+ -debug
+ -outcode=utf8
+ -nologo
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp=
+src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp=
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/all/r_bsp_interrupts.c'
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/all/r_bsp_common.c'
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/all/r_bsp_locking.c"
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/all/r_bsp_mcu_startup.c"
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/all/r_bsp_cpu.c'
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/all/r_bsp_software_interrupt.d" -MT="src/smc_gen/r_bsp/mcu/all/r_bsp_software_interrupt.obj" -MT="src/smc_gen/r_bsp/mcu/all/r_bsp_software_interrupt.d" "../src/smc_gen/r_bsp/mcu/all/r_bsp_software_interrupt.c"
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+''
+''
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/all/r_rx_intrinsic_functions.d" -MT="src/smc_gen/r_bsp/mcu/all/r_rx_intrinsic_functions.obj" -MT="src/smc_gen/r_bsp/mcu/all/r_rx_intrinsic_functions.d" "../src/smc_gen/r_bsp/mcu/all/r_rx_intrinsic_functions.c"
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/all/resetprg.d" -MT="src/smc_gen/r_bsp/mcu/all/resetprg.obj" -MT="src/smc_gen/r_bsp/mcu/all/resetprg.d" "../src/smc_gen/r_bsp/mcu/all/resetprg.c"
+''
+'Scanning and building file: ../src/smc_gen/r_bsp/mcu/all/sbrk.c'
+src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp=
+'Scanning and building file: ../src/frtos_skeleton/task_1.c'
+'Invoking: Scanner and Compiler'
+src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp=
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\all"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/all"
+ -debug
+ -outcode=utf8
+ -nologo
+src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp=
+'Invoking: Scanner and Compiler'
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\all"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/all"
+ -debug
+ -outcode=utf8
+ -nologo
+src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp=
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/all/r_bsp_software_interrupt.c"
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\all"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/all"
+ -debug
+ -outcode=utf8
+ -nologo
+src\frtos_skeleton\cDepSubCommand.tmp=
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/all/r_bsp_mcu_startup.c'
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/all/r_rx_intrinsic_functions.c"
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/all/r_bsp_locking.c'
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/all/resetprg.c"
+ -MM
+ -MP
+ -isa=rxv2
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -debug
+ -outcode=utf8
+ -nologo
+''
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cDepSubCommand.tmp" -output=dep="src/smc_gen/r_bsp/mcu/all/sbrk.d" -MT="src/smc_gen/r_bsp/mcu/all/sbrk.obj" -MT="src/smc_gen/r_bsp/mcu/all/sbrk.d" "../src/smc_gen/r_bsp/mcu/all/sbrk.c"
+ccrx -subcommand="src\frtos_skeleton\cDepSubCommand.tmp" -output=dep="src/frtos_skeleton/task_1.d" -MT="src/frtos_skeleton/task_1.obj" -MT="src/frtos_skeleton/task_1.d" "../src/frtos_skeleton/task_1.c"
+''
+src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp=
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\smc_gen\r_bsp\mcu\all"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/smc_gen/r_bsp/mcu/all"
+ -debug
+ -outcode=utf8
+ -nologo
+src\frtos_skeleton\cSubCommand.tmp=
+ccrx -subcommand="src\smc_gen\r_bsp\mcu\all\cSubCommand.tmp" "../src/smc_gen/r_bsp/mcu/all/sbrk.c"
+ -isa=rxv2
+ -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\frtos_skeleton"
+ -include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+ -include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+ -lang=c99
+ -utf8
+ -nomessage
+ -output=obj
+ -obj_path="src/frtos_skeleton"
+ -debug
+ -outcode=utf8
+ -nologo
+ccrx -subcommand="src\frtos_skeleton\cSubCommand.tmp" "../src/frtos_skeleton/task_1.c"
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/all/r_bsp_software_interrupt.c'
+''
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/all/r_rx_intrinsic_functions.c'
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/all/resetprg.c'
+''
+''
+'Finished Scanning and building: ../src/smc_gen/r_bsp/mcu/all/sbrk.c'
+''
+'Finished Scanning and building: ../src/frtos_skeleton/task_1.c'
+''
+'Invoking: Linker'
+'Building target:'
+LinkerRX231.tmp=
+    -MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug/RX231_l.ud" 
+    -noprelink 
+    -input=".\src/FreeRTOS/Source/portable/Renesas/RX600v2\port_asm.obj"
+    -input=".\src/FreeRTOS/Source\croutine.obj"
+    -input=".\src/FreeRTOS/Source\event_groups.obj"
+    -input=".\src/FreeRTOS/Source\list.obj"
+    -input=".\src/FreeRTOS/Source/portable/MemMang\heap_4.obj"
+    -input=".\src/FreeRTOS/Source/portable/Renesas/RX600v2\port.obj"
+    -input=".\src/FreeRTOS/Source\queue.obj"
+    -input=".\src/FreeRTOS/Source\stream_buffer.obj"
+    -input=".\src/FreeRTOS/Source\tasks.obj"
+    -input=".\src/FreeRTOS/Source\timers.obj"
+    -input=".\src\RX231.obj"
+    -input=".\src/frtos_skeleton\task_1.obj"
+    -input=".\src/frtos_skeleton\task_2.obj"
+    -input=".\src/frtos_startup\freertos_object_init.obj"
+    -input=".\src/frtos_startup\freertos_start.obj"
+    -input=".\src/smc_gen/general\r_cg_hardware_setup.obj"
+    -input=".\src/smc_gen/general\r_smc_cgc.obj"
+    -input=".\src/smc_gen/general\r_smc_cgc_user.obj"
+    -input=".\src/smc_gen/general\r_smc_interrupt.obj"
+    -input=".\src/smc_gen/r_bsp/board/generic_rx231\hwsetup.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/all\dbsct.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/all\lowlvl.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/all\lowsrc.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/all\mcu_locks.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_cpu.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_interrupts.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_locking.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_mcu_startup.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_software_interrupt.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/all\r_rx_intrinsic_functions.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/all\resetprg.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/all\sbrk.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/rx231\mcu_clocks.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/rx231\mcu_init.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/rx231\mcu_interrupts.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/rx231\r_bsp_vbatt.obj"
+    -input=".\src/smc_gen/r_bsp/mcu/rx231\vecttbl.obj"
+    -input=".\src/smc_gen/r_pincfg\Pin.obj"
+    -library=".\RX231.lib"
+    -start=SU,SI,B_1,R_1,B_2,R_2,B,R/04,PResetPRG,C_1,C_2,C,C$*,D*,W*,L,P/0FFF80000,EXCEPTVECT/0FFFFFF80,RESETVECT/0FFFFFFFC
+    -output="RX231.abs" 
+    -form=absolute 
+    -nomessage 
+    -vect=_undefined_interrupt_source_isr 
+    -list=RX231.map 
+    -nooptimize 
+    -rom=D=R,D_1=R_1,D_2=R_2 
+    -cpu=RAM=00000000-0000ffff,FIX=00080000-00083fff,FIX=00086000-00087fff,FIX=00088000-0008dfff,FIX=00090000-0009ffff,FIX=000a0000-000bffff,FIX=000c0000-000fffff,ROM=00100000-00101fff,FIX=007fc000-007fc4ff,FIX=007ffc00-007fffff,ROM=fff80000-ffffffff 
+    -nologo
+rlink -subcommand="LinkerRX231.tmp"
+
+W0561016:The evaluation version of CC-RX V3 is valid for the remaining 58 days. After that, link size limit (128 Kbyte) will be applied. Please consider purchasing the product.
+
+Renesas Optimizing Linker Completed
+'Finished building target:'
+''
+C:\Users\XiaoZ\.eclipse\com.renesas.platform_1435879475\Utilities\\ccrx\renesas_cc_converter RX231.abs RX231.x
+udcollector -subcommand=udSubcommand.tmp -output=RX231.udm
+Loading input file RX231.abs
+Parsing the ELF input file.....
+25 segments required LMA fixes
+Converting the DWARF information....
+Constructing the output ELF image....
+Saving the ELF output file RX231.x
+'Build complete.'

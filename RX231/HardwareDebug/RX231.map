@@ -1,0 +1,113 @@
+Renesas Optimizing Linker (W3.05.00 )             03-Apr-2024 16:16:22
+
+*** Options ***
+
+-subcommand=LinkerRX231.tmp
+-MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug/RX231_l.ud" 
+-noprelink 
+-input=".\src/FreeRTOS/Source/portable/Renesas/RX600v2\port_asm.obj"
+-input=".\src/FreeRTOS/Source\croutine.obj"
+-input=".\src/FreeRTOS/Source\event_groups.obj"
+-input=".\src/FreeRTOS/Source\list.obj"
+-input=".\src/FreeRTOS/Source/portable/MemMang\heap_4.obj"
+-input=".\src/FreeRTOS/Source/portable/Renesas/RX600v2\port.obj"
+-input=".\src/FreeRTOS/Source\queue.obj"
+-input=".\src/FreeRTOS/Source\stream_buffer.obj"
+-input=".\src/FreeRTOS/Source\tasks.obj"
+-input=".\src/FreeRTOS/Source\timers.obj"
+-input=".\src\RX231.obj"
+-input=".\src/frtos_skeleton\task_1.obj"
+-input=".\src/frtos_skeleton\task_2.obj"
+-input=".\src/frtos_startup\freertos_object_init.obj"
+-input=".\src/frtos_startup\freertos_start.obj"
+-input=".\src/smc_gen/general\r_cg_hardware_setup.obj"
+-input=".\src/smc_gen/general\r_smc_cgc.obj"
+-input=".\src/smc_gen/general\r_smc_cgc_user.obj"
+-input=".\src/smc_gen/general\r_smc_interrupt.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rx231\hwsetup.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\dbsct.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\lowlvl.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\lowsrc.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\mcu_locks.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_cpu.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_interrupts.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_locking.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_mcu_startup.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_software_interrupt.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_rx_intrinsic_functions.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\resetprg.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\sbrk.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rx231\mcu_clocks.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rx231\mcu_init.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rx231\mcu_interrupts.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rx231\r_bsp_vbatt.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rx231\vecttbl.obj"
+-input=".\src/smc_gen/r_pincfg\Pin.obj"
+-library=".\RX231.lib"
+-start=SU,SI,B_1,R_1,B_2,R_2,B,R/04,PResetPRG,C_1,C_2,C,C$*,D*,W*,L,P/0FFF80000,EXCEPTVECT/0FFFFFF80,RESETVECT/0FFFFFFFC
+-output="RX231.abs" 
+-form=absolute 
+-nomessage 
+-vect=_undefined_interrupt_source_isr 
+-list=RX231.map 
+-nooptimize 
+-rom=D=R,D_1=R_1,D_2=R_2 
+-cpu=RAM=00000000-0000ffff,FIX=00080000-00083fff,FIX=00086000-00087fff,FIX=00088000-0008dfff,FIX=00090000-0009ffff,FIX=000a0000-000bffff,FIX=000c0000-000fffff,ROM=00100000-00101fff,FIX=007fc000-007fc4ff,FIX=007ffc00-007fffff,ROM=fff80000-ffffffff 
+-nologo
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+SU
+                                  00000004  00001003      1000   4
+SI
+                                  00001004  00001403       400   4
+B_1
+                                  00001404  0000782b      6428   1
+R_1
+                                  0000782c  0000787b        50   1
+B_2
+                                  0000787c  00007885         a   2
+R_2
+                                  00007886  00007886         0   1
+B
+                                  00007888  00007f83       6fc   4
+R
+                                  00007f84  000080d7       154   4
+PResetPRG
+                                  fff80000  fff80076        77   1
+C_1
+                                  fff80077  fff80077         0   1
+C_2
+                                  fff80078  fff8007f         8   2
+C
+                                  fff80080  fff800fb        7c   4
+C$DSEC
+                                  fff800fc  fff8011f        24   4
+C$BSEC
+                                  fff80120  fff80137        18   4
+C$VECT
+                                  fff80138  fff80537       400   4
+D
+                                  fff80538  fff8068b       154   4
+D_1
+                                  fff8068c  fff806db        50   1
+D_2
+                                  fff806dc  fff806dc         0   1
+W
+                                  fff806dc  fff806dc         0   4
+W_1
+                                  fff806dc  fff806eb        10   1
+W_2
+                                  fff806ec  fff806ec         0   2
+L
+                                  fff806ec  fff8075d        72   4
+P
+                                  fff8075e  fff84af3      4396   1
+EXCEPTVECT
+                                  ffffff80  fffffffb        7c   4
+RESETVECT
+                                  fffffffc  ffffffff         4   4

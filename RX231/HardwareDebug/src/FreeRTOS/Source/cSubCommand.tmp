@@ -1,0 +1,20 @@
+-isa=rxv2
+-MAKEUD="D:\e2studio_RX231\Environmental_test\RX231\HardwareDebug\src\FreeRTOS\Source"
+-include="C:\Program Files (x86)\Renesas\RX\3_5_0\/include"
+-include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\include"
+-include="D:\e2studio_RX231\Environmental_test\RX231\src\FreeRTOS\Source\portable\Renesas\RX600v2"
+-include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_startup"
+-include="D:\e2studio_RX231\Environmental_test\RX231\src\frtos_config"
+-include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_config"
+-include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\general"
+-include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_pincfg"
+-include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen"
+-include="D:\e2studio_RX231\Environmental_test\RX231\src\smc_gen\r_bsp"
+-lang=c99
+-utf8
+-nomessage
+-output=obj
+-obj_path="src/FreeRTOS/Source"
+-debug
+-outcode=utf8
+-nologo

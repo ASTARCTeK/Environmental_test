@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<frtos_skeleton>
+    <generateSettings>
+        <row id="TASKOBJECTLINK2" oldValue="task_1"/>
+        <row id="TASKOBJECTLINK3" oldValue="task_2"/>
+    </generateSettings>
+</frtos_skeleton>
